@@ -1,0 +1,15 @@
+.list__services{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.list__services-item {
+    display: flex;
+    align-items: center;
+}
+/*обращаться к каждому отдельно через чайлд и номер*/
+
+.list__services-item-text {
+    margin-right: 57px;
+}

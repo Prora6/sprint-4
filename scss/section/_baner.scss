@@ -1,0 +1,26 @@
+.baner {
+ background-image: url(../../images/Baner.png);
+ background-size: cover;
+ height: 400px;
+ position: relative;
+}
+
+.baner__content {
+position: absolute;
+top: 108px;
+left: 208px;
+}
+
+.baner__title {
+    font-size: 64px;
+    line-height: 78px;
+    color: #F9F6F2;
+    margin-bottom: 12px;
+}
+
+.baner__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 400px;
+}
