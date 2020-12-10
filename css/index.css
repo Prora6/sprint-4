@@ -112,15 +112,75 @@
 .list__services {
   display: flex;
   list-style: none;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 1024px;
+  height: 140px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 36px 18px 38px 36px; }
 
 .list__services-item {
   display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.services__icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px; }
+
+.list__services-item-text {
+  font-size: 22px;
+  line-height: 27px;
+  color: #300F14;
+  margin-right: 65px; }
+
+.list__services-item-text:first-child {
+  width: 72px; }
+
+.list__services-item-text:nth-child(2) {
+  width: 85px; }
+
+.list__services-item-text:nth-child(3) {
+  width: 102px; }
+
+.list__services-item-text:nth-child(4) {
+  width: 72px; }
+
+/* разобраться с чайлд */
+.dividends {
+  background-color: #F9F6F2;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center; }
 
-/*обращаться к каждому отдельно через чайлд и номер*/
-.list__services-item-text {
-  margin-right: 57px; }
+.dividends__title {
+  margin-bottom: 34px; }
+
+.dividends__wrap {
+  display: flex;
+  justify-content: center; }
+
+.dividends__list-wrap {
+  max-width: 433px;
+  margin-right: 22px; }
+
+.dividends__list-wrap:last-child {
+  max-width: 431px;
+  margin-right: 0px; }
+
+.dividends__list-item {
+  display: flex;
+  align-items: center; }
+
+.dividends__list-item-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px; }
 
 body {
   margin: 0px; }

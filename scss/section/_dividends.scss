@@ -1,0 +1,38 @@
+.dividends {
+    background-color: #F9F6F2;
+    padding-top: 120px;
+    padding-bottom: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.dividends__title {
+    margin-bottom: 34px;
+}
+.dividends__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.dividends__list-wrap {
+    max-width: 433px;
+    margin-right: 22px;
+}
+
+.dividends__list-wrap:last-child {
+    max-width: 431px;
+    margin-right: 0px;
+}
+
+.dividends__list-item {
+    display: flex;
+    align-items: center;
+}
+
+.dividends__list-item-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+} 
