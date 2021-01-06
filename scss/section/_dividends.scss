@@ -48,6 +48,10 @@
     max-width: 431px;
 }
 
+.special__offer {
+    background-color: #F9F6F2
+}
+
 .special__offer-content {
     display: flex;
     flex-direction: column;
@@ -101,15 +105,23 @@
     color: #632831;
 }
 
+.special__offer-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #686868;
+
+}
+
 .special__offer-details {
     font-size: 14px;
     line-height: 14px;
     color: #43191F;
 }
 
-.special__offer-get {
+
+.special__offer-percent {
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .special__offer-wrap-text {

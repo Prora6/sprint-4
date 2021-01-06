@@ -190,6 +190,9 @@
 .dividends__list-item-text:last-child {
   max-width: 431px; }
 
+.special__offer {
+  background-color: #F9F6F2; }
+
 .special__offer-content {
   display: flex;
   flex-direction: column;
@@ -235,14 +238,18 @@
   line-height: 35px;
   color: #632831; }
 
+.special__offer-text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #686868; }
+
 .special__offer-details {
   font-size: 14px;
   line-height: 14px;
   color: #43191F; }
 
-.special__offer-get {
-  display: flex;
-  justify-content: space-between; }
+.special__offer-percent {
+  display: flex; }
 
 .special__offer-wrap-text {
   font-size: 12px;
@@ -261,26 +268,44 @@
   color: #632831; }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.woff");
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaBold.woff");
   font-weight: bold;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.woff");
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaRegular.woff");
   font-weight: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Medium.woff");
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaRegular.woff");
   font-weight: 500;
   font-display: swap; }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Light.woff");
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaLight.woff");
+  font-weight: 300;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Milio";
+  src: url("../fonts/MilioBold.woff");
+  font-weight: bold;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Milio";
+  src: url("../fonts/MilioRegular.woff");
+  font-weight: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Milio";
+  src: url("../fonts/MilioLight.woff");
   font-weight: 300;
   font-display: swap; }
 
