@@ -15,6 +15,9 @@
 
 .dividends__title {
     margin-bottom: 34px;
+    font-size: 36px;
+    line-height: 53px;
+    color: #43191F;
 }
 .dividends__wrap {
     display: flex;
@@ -49,7 +52,9 @@
 }
 
 .special__offer {
-    background-color: #F9F6F2
+    background-color: #F9F6F2;
+    display: flex;
+    justify-content: center;
 }
 
 .special__offer-content {
@@ -61,6 +66,14 @@
 .special__offer-list {
     list-style: none;
     display: flex;
+    margin-bottom: 50px;
+}
+
+.special__offer-bonus-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #632831;
 }
 
 .special__offer-item {
@@ -98,6 +111,13 @@
     color: #43191F;
 }
 
+.special__offer-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
 .special__offer-wrap-title {
     margin-bottom: 16px;
     font-size: 24px;
@@ -109,7 +129,13 @@
     font-size: 12px;
     line-height: 14px;
     color: #686868;
+    margin-bottom: 30px;
+}
 
+.special__offer-percent-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #CB9C71;
 }
 
 .special__offer-details {
@@ -121,7 +147,8 @@
 
 .special__offer-percent {
     display: flex;
-    
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .special__offer-wrap-text {
@@ -129,6 +156,12 @@
     line-height: 14px;
     color: #686868;
     margin-bottom: 16px;
+}
+
+.special__offer-get {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .special__offer-get-text {
