@@ -1,0 +1,27 @@
+.score {
+    padding: 50px 0px 52px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.score_content {
+    max-width: 1024px;
+    width: 100%;
+}
+
+.score__item {
+    //убать точки у элементов списка
+    max-width: 320px;
+    width: 100%;
+}
+
+.score__title-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.score__subtitle {
+    margin-bottom: 44px;
+}
