@@ -2,40 +2,47 @@
   font-family: "Helvetica";
   src: url("../fonts/HelveticaBold.woff");
   font-weight: bold;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaRegular.woff");
   font-weight: normal;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaRegular.woff");
   font-weight: 500;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaLight.woff");
   font-weight: 300;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioBold.woff");
   font-weight: bold;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioRegular.woff");
   font-weight: normal;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioLight.woff");
   font-weight: 300;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }

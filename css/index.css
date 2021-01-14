@@ -45,13 +45,25 @@
 .information__list-item:not(:last-child) {
   margin-right: 28px; }
 
+.information__list-link {
+  text-decoration: none;
+  color: #F9F6F2;
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px; }
+
 .header__button {
   background: transparent;
   border: none;
   color: #D09E70;
   text-decoration-line: underline;
   padding: 0;
-  margin-right: 40px; }
+  margin-right: 40px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px; }
 
 .header__button:first-child {
   color: #F4F2EE;
@@ -71,11 +83,15 @@
 .navigation__list-item {
   display: flex; }
 
+.navigation__list-item:first-child .navigation__list-item-text {
+  color: #D09E70; }
+
 .navigation__list-item-text {
   margin-right: 13px;
   font-size: 18px;
   line-height: 21px;
-  color: #F9F6F2; }
+  color: #F9F6F2;
+  font-family: "Milio"; }
 
 .navigation__list-item-img {
   margin-right: 55px; }
@@ -302,43 +318,50 @@
   font-family: "Helvetica";
   src: url("../fonts/HelveticaBold.woff");
   font-weight: bold;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaRegular.woff");
   font-weight: normal;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaRegular.woff");
   font-weight: 500;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/HelveticaLight.woff");
   font-weight: 300;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioBold.woff");
   font-weight: bold;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioRegular.woff");
   font-weight: normal;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 @font-face {
   font-family: "Milio";
   src: url("../fonts/MilioLight.woff");
   font-weight: 300;
-  font-display: swap; }
+  font-display: swap;
+  font-style: normal; }
 
 .score {
   padding: 50px 0px 52px 0px;
@@ -364,7 +387,8 @@
 
 body {
   margin: 0px;
-  font-family: "Roboto"; }
+  font-family: "Helvetica", sans-serif;
+  font-family: "Milio", sans-serif; }
 
 p, h1, h2, h3 {
   margin: 0; }
