@@ -136,6 +136,9 @@
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   padding: 36px 18px 38px 36px; }
 
+.list__services-item:nth-child(1) .list__services-item-text {
+  margin-right: 80px; }
+
 .list__services-item {
   display: flex;
   align-items: center;
@@ -163,7 +166,6 @@
 
 /* разобраться с чайлд
 
-
 .list__services-item-text:first-child {
     width: 72px;
 }
@@ -178,7 +180,9 @@
 
 .list__services-item-text:nth-child(4) {
     width: 72px;
-}*/
+}
+
+*/
 .dividends {
   background-color: #F9F6F2;
   padding-top: 120px;
