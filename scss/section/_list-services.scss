@@ -12,11 +12,19 @@
     padding: 36px 18px 38px 36px;
 }
 
+
+
 .list__services-item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.services__icon-wrap {
+    display: flex;
+}
+
+
 
 .services__icon{
     width: 60px;
@@ -24,12 +32,27 @@
     margin-right: 30px;
 }
 
+.services__icon-monitor{
+    margin-right: 19px;
+}
+
+.services__icon-magnifier{
+    margin-right: 27px;
+}
+
 .list__services-item-text {
     font-size: 22px;
     line-height: 27px;
     color: #300F14;
-    margin-right: 65px;
+    font-family: "Milio";
 }
+
+
+
+
+
+/* разобраться с чайлд
+
 
 .list__services-item-text:first-child {
     width: 72px;
@@ -45,6 +68,4 @@
 
 .list__services-item-text:nth-child(4) {
     width: 72px;
-}
-
-/* разобраться с чайлд */
+}*/

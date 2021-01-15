@@ -136,35 +136,52 @@
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   padding: 36px 18px 38px 36px; }
 
+.list__services:first-child {
+  margin-right: 90px; }
+
 .list__services-item {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.services__icon-wrap {
+  display: flex; }
 
 .services__icon {
   width: 60px;
   height: 60px;
   margin-right: 30px; }
 
+.services__icon-monitor {
+  margin-right: 19px; }
+
+.services__icon-magnifier {
+  margin-right: 27px; }
+
 .list__services-item-text {
   font-size: 22px;
   line-height: 27px;
   color: #300F14;
-  margin-right: 65px; }
+  font-family: "Milio"; }
+
+/* разобраться с чайлд
+
 
 .list__services-item-text:first-child {
-  width: 72px; }
+    width: 72px;
+}
 
 .list__services-item-text:nth-child(2) {
-  width: 85px; }
+    width: 85px;
+}
 
 .list__services-item-text:nth-child(3) {
-  width: 102px; }
+    width: 102px;
+}
 
 .list__services-item-text:nth-child(4) {
-  width: 72px; }
-
-/* разобраться с чайлд */
+    width: 72px;
+}*/
 .dividends {
   background-color: #F9F6F2;
   padding-top: 120px;
