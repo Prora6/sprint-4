@@ -409,6 +409,7 @@
   width: 100%; }
 
 .score__item {
+  list-style: none;
   max-width: 320px;
   width: 100%; }
 
@@ -420,6 +421,36 @@
 
 .score__subtitle {
   margin-bottom: 44px; }
+
+.score__item-up {
+  position: relative; }
+
+.score__item-up-img {
+  background: #B2B3B7;
+  display: flex; }
+
+.score__item-filling {
+  position: absolute;
+  top: 54px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  color: #FFFFFF; }
+
+.score__item-filling-title {
+  font-size: 36px;
+  line-height: 51px; }
+
+.score__item-filling-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 300; }
+
+.score__list-information {
+  list-style-type: none; }
+
+.score__list-information-item {
+  display: flex; }
 
 body {
   margin: 0px;
