@@ -408,16 +408,38 @@
   max-width: 1024px;
   width: 100%; }
 
+.score__details {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Helvetica;
+  color: #43191F;
+  letter-spacing: 0.05em;
+  text-decoration: none; }
+
 .score__item {
   list-style: none;
   max-width: 320px;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 30px; }
+
+.score__item:nth-child(2) .score__item-up-img {
+  background-color: #EABC84; }
+
+.score__item:nth-child(2) .score__list-button {
+  background: #D09E70;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 300; }
 
 .score__title-wrap {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 30px; }
+
+.score__line-wrap {
+  width: 557px; }
 
 .score__subtitle {
   margin-bottom: 44px; }
@@ -428,6 +450,17 @@
 .score__item-up-img {
   background: #B2B3B7;
   display: flex; }
+
+.score__paragraph-wrap {
+  display: flex; }
+
+.marker {
+  margin: 19px 9px 16px 12px; }
+
+.information_score {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 41px; }
 
 .score__item-filling {
   position: absolute;
@@ -446,11 +479,46 @@
   font-family: "Helvetica", sans-serif;
   font-weight: 300; }
 
+.score__list {
+  display: flex;
+  flex-direction: row; }
+
 .score__list-information {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 32px 20px 20px 20px; }
 
 .score__list-information-item {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
+
+.score__list-line {
+  width: 100%; }
+
+.line {
+  height: 1px;
+  background-color: #C4C4C4;
+  width: 100%;
+  border: 0px;
+  margin: 0px; }
+
+.score__list-information-button {
+  display: flex;
+  height: 50px;
+  margin-top: 24px; }
+
+.score__list-button {
+  max-width: 280px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #2A2A2A;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+  letter-spacing: 0.05em; }
 
 body {
   margin: 0px;
