@@ -41,28 +41,51 @@
     }
 }
 
+.score__item:nth-child(3) {
+    margin-right: 0px;
+}
+
 .score__title-wrap {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 30px;
+    max-width: 1022px;
+
+}
+
+.score__title {
+    // max-width: 248px;
+    // width: 100%;
+    font-family: Milio;
+    font-size: 36px;
+    line-height: 51px;
+    color: #43191F;
 }
 
 .score__line-wrap {
-    width: 557px;
+    max-width: 556px;
+    width: 100%;
+    padding-bottom: 4px;
 }
 
-// .score__title-line {
-//     border: 0;
-  
-//   display:block;
-//   width: 96%;               
-//   background-color:#43191F;
-//   height: 1px;
-// }
+.score__title-line {
+    height: 2px;
+    background-color: #D09E70;
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+}
 
 .score__subtitle {
     margin-bottom: 44px;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 25px;
+    color: #979797;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+
 }
 
 .score__item-up {
@@ -74,8 +97,6 @@
     background:#B2B3B7;
     display: flex;
 }
-
-
 
 .score__paragraph-wrap {
     display: flex;
@@ -92,7 +113,6 @@
     line-height: 41px;
 }
 
-
 .score__item-filling {
     position: absolute;
     top: 54px;
@@ -101,7 +121,6 @@
     color: #FFFFFF;
 
 }
-
 
 .score__item-filling-title {
     font-size: 36px;
