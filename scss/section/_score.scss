@@ -42,6 +42,12 @@
 }
 
 .score__item:nth-child(3) {
+    .score__list-button {
+        border: 1px solid #803742;
+    }
+}
+
+.score__item:nth-child(3) {
     margin-right: 0px;
 }
 
