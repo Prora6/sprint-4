@@ -5,10 +5,11 @@
 @import './section/dividends';
 @import './fonts.scss';
 @import './section/score';
+@import './section/training';
 body {
     margin: 0px;
     font-family: "Helvetica", sans-serif;
-    font-family: "Milio", sans-serif;;
+    font-family: "Milio", sans-serif;
   }
   
   p, h1, h2, h3 {
@@ -21,3 +22,5 @@ body {
       margin: 0px;
       padding: 0px;
     }
+  
+  
