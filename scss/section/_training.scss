@@ -20,7 +20,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     max-width: 1024px;
     width: 100%;
 }
@@ -58,6 +58,17 @@ color: #43191F;
 .training__information{
     display: flex;
     flex-direction: row;
+    max-height: 243px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+
+.training__information-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+    padding-right: 34px;
 }
 
 .training__img-wrap {
@@ -70,3 +81,9 @@ color: #43191F;
     top: 78px;
 }
 
+.training__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+}
