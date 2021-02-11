@@ -655,6 +655,96 @@
   display: flex;
   justify-content: center; }
 
+.market__content-wrap {
+  max-width: 1024px;
+  width: 100%; }
+
+.market__title-wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 48px; }
+
+.market__title {
+  font-size: 36px;
+  line-height: 51px;
+  color: #43191F; }
+
+.market__line-wrap {
+  max-width: 556px;
+  width: 100%;
+  padding-bottom: 4px; }
+
+.market__title-line {
+  height: 2px;
+  background-color: #D09E70;
+  width: 100%;
+  border: 0px;
+  margin: 0px; }
+
+.market__news {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #43191F;
+  font-family: "Helvetica", sans-serif;
+  text-decoration: none; }
+
+.market__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+
+.market__list-item {
+  max-width: 489px;
+  width: 100%;
+  display: flex;
+  margin-right: 44px;
+  margin-bottom: 52px; }
+
+.market__list-item:nth-child(2) {
+  margin-right: 0px; }
+  .market__list-item:nth-child(2) .market__list-title {
+    line-height: 25px; }
+
+.market__list-item:nth-child(4) {
+  margin-right: 0px; }
+
+.market__list-title-wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between; }
+
+.market__list-title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #43191F; }
+
+.market__list-title-date {
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  font-family: "Helvetica", sans-serif; }
+
+.market__list-line {
+  height: 1px;
+  background-color: #E7E7E7;
+  width: 100%;
+  border: 0px;
+  margin: 0px;
+  margin: 8px 0px 12px 0px; }
+
+.market__wrap-img {
+  display: flex;
+  align-items: center;
+  margin-right: 16px; }
+
+.market__list-item-text {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Helvetica", sans-serif;
+  color: #000000; }
+
 body {
   margin: 0px;
   font-family: "Helvetica", sans-serif;
