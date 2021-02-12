@@ -752,7 +752,8 @@
 .company {
   background-color: #F9F6F2;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 60px; }
 
 .company__content-wrap {
   max-width: 1024px;
@@ -860,12 +861,16 @@
   max-height: 250px;
   height: 100%;
   background: #C7A97D;
-  padding: 15px 15px 15px 13px; }
+  padding: 15px 15px 15px 13px;
+  background-image: url(../../images/bitmap.png);
+  background-repeat: no-repeat;
+  background-position: right; }
 
 .open__account-content {
   display: flex;
   flex-direction: column;
-  padding: 20px 0px 20px 22px; }
+  padding: 20px 0px 20px 22px;
+  border: 1px solid #FFFFFF; }
 
 .open__account-title {
   max-width: 500px;
@@ -873,7 +878,68 @@
   font-size: 37px;
   line-height: 43px;
   color: #FFFFFF;
-  font-family: "Milio", sans-serif; }
+  font-family: "Milio", sans-serif;
+  margin-bottom: 45px; }
+
+.open__account-button {
+  max-width: 220px;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 0.05em; }
+
+.open__account-button:nth-child(1) {
+  background: #FFFFFF;
+  font-size: 14px;
+  line-height: 14px;
+  color: #D09E70;
+  border: none;
+  margin-right: 20px; }
+
+.open__account-button:nth-child(2) {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF; }
+
+.partners {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 51px; }
+
+.partners__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center; }
+
+.partners__list-item {
+  margin-right: 19px; }
+
+.partners__list-item:nth-child(1) {
+  width: 120px;
+  height: 64.55px; }
+
+.partners__list-item:nth-child(2) {
+  width: 180px;
+  height: 59.94px; }
+
+.partners__list-item:nth-child(3) {
+  width: 170px;
+  height: 40.26px; }
+
+.partners__list-item:nth-child(4) {
+  width: 220px;
+  height: 68.97px; }
+
+.partners__list-item:nth-child(5) {
+  width: 120px;
+  height: 44.13px;
+  margin-right: 0px; }
 
 body {
   margin: 0px;
