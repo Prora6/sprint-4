@@ -13,6 +13,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    padding-bottom: 45px;
 }
 
 .title__company {
@@ -46,6 +47,8 @@
 .news__content-list {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .news__content-list-item {
@@ -54,6 +57,16 @@
     width: 100%;
     max-height: 140px;
     height: 100%;
+    
+}
+
+.news__content-list-item:nth-child(2) {
+    .news__content-title {
+        text-decoration:none;
+    }
+    .news__content-text {
+        color: #686868;
+    }
 }
 
 .news__content-text-wrap {
@@ -65,8 +78,9 @@ box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
 .news__content-title {
     font-size: 18px;
     line-height: 25px;
-    text-decoration-line: underline;
+    text-decoration: underline;
     color: #43191F;
+    
 }
 
 .news__content-text {
@@ -74,6 +88,7 @@ box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
     line-height: 17px;
     color: #000000;
     font-family: "Helvetica", sans-serif;
+    padding-right: 8px;
 }
 
 .secondary {
@@ -90,5 +105,49 @@ box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
 }
 
 .news__more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey {
+    padding-bottom: 10px;
+}
+
+.news__more-date {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Helvetica", sans-serif;
+}
+
+.news__more-text {
+    font-size: 12px;
+    line-height: 17px;
+    color: #CB9C71;
+    text-decoration:none;
+}
+
+.open__account-wrap {
+    max-width: 1024px;
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+    background:  #C7A97D;
+    padding: 15px 15px 15px 13px;
+}
+
+.open__account-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 22px;
+}
+
+.open__account-title {
+    max-width: 500px;
+    width: 100%;
+    font-size: 37px;
+    line-height: 43px;
+    color: #FFFFFF;
+    font-family: "Milio", sans-serif;
+    
     
 }
