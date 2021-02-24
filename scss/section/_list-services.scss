@@ -18,35 +18,56 @@
     justify-content: center;
 }
 
+.vertical__line {
+    border-left: 2px solid #DFDFDF;
+    height: 80px;
+}
+
 .list__services-item:nth-child(1) {
     .list__services-item-text {
-        margin-right: 86px;
+        
         width: 100%;
-        max-width: 74px;
+        max-width: 110px;
+        margin-right: 14px;
     }
+
+    .vertical__line {
+        margin-right: 42px;
+    }
+
 }
 
 
 .list__services-item:nth-child(2) {
     .list__services-item-text {
-        margin-right: 82px;
+        
         width: 100%;
-        max-width: 88px;
+        max-width: 97px;
+        margin-right: 32px;
+        text-decoration: underline;
+    }
+
+    .vertical__line {
+        margin-right: 33px;
     }
 }
 
 .list__services-item:nth-child(3) {
     .list__services-item-text {
-        margin-right: 82px;
+        
         width: 100%;
-        max-width: 105px;
+        max-width: 150px;
+    }
+
+    .vertical__line {
+        margin-right: 33px;
     }
 }
 
 .list__services-item:nth-child(4) {
     .list__services-item-text {
         width: 100%;
-        max-width: 73px;
+        max-width: 116px;
     }
 }
 .services__icon-wrap {
@@ -78,25 +99,3 @@
     font-family: "Milio";
 }
 
-
-
-
-/* разобраться с чайлд
-
-.list__services-item-text:first-child {
-    width: 72px;
-}
-
-.list__services-item-text:nth-child(2) {
-    width: 85px;
-}
-
-.list__services-item-text:nth-child(3) {
-    width: 102px;
-}
-
-.list__services-item-text:nth-child(4) {
-    width: 72px;
-}
-
-*/
