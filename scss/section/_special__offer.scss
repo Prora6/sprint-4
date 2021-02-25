@@ -1,0 +1,147 @@
+.special__offer {
+    background-color: #F9F6F2;
+    display: flex;
+    justify-content: center;
+}
+
+.special__offer-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+}
+
+.special__offer-line-wrap {
+    max-width: 410px;
+    width: 100%;
+    padding-bottom: 1px;
+}
+
+.special__offer-title-line {
+    height: 2px;
+    background-color: #D09E70;
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+}
+
+.special__offer-list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.special__offer-bonus-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #632831;
+}
+
+.special__offer-item {
+    padding: 25px 25px 18px 25px;
+    background: #FFFFFF;
+    border: 5px solid #E0E0E0;
+    box-sizing: border-box;
+    margin-right: 30px;
+    max-width: 320px;
+    width: 100%;
+    max-height: 220px;
+    height: 100%;
+}
+
+
+
+// .special__offer-item:nth-child(3) {
+//     margin-right: 0px;
+//     padding: 25px 25px 18px 25px;
+// }
+
+.special__offer-item:last-child {
+    margin-right: 0px;
+}
+
+.special__offer-item:first-child {
+    background: #FFFFFF;
+    border: 10px solid #CB9C71;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    margin-right: 33px;
+    padding: 20px 20px 13px 20px;
+}
+
+.special__offer-content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.special__offer-title {
+    font-size: 36px;
+    line-height: 51px;
+    color: #43191F;
+}
+
+.special__offer-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.special__offer-wrap-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #632831;
+}
+
+.special__offer-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #686868;
+}
+
+.special__offer-percent-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #CB9C71;
+}
+
+.special__offer-details {
+    font-size: 14px;
+    line-height: 14px;
+    color: #43191F;
+    letter-spacing: 0.05em;
+    font-family: "Helvetica", sans-serif;
+    text-decoration: none;
+}
+
+
+.special__offer-percent {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.special__offer-get {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.special__offer-get-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #CB9C71;
+}
+
+.get {
+    font-size: 12px;
+    line-height: 17px;
+    color: #632831;
+}
