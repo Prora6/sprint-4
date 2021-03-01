@@ -37,3 +37,15 @@
     width: 100%;
 
 }
+
+@media screen and (max-width: 1250px) {
+    .baner {
+        height: 180px;
+    }
+
+    .baner__content-wrap {
+        padding-top: 0px;
+        margin: 0px;
+        padding-left: 10%;
+    }
+}

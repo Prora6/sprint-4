@@ -99,3 +99,8 @@
     font-family: "Milio";
 }
 
+@media screen and (max-width: 1250px) {
+    .list__wrap-services {
+        display: none;
+    }
+}

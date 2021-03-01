@@ -91,3 +91,12 @@
 .dividends__list-item-text:last-child {
     max-width: 431px;
 }
+
+@media screen and (max-width: 1250px) {
+    .dividends {
+        padding: 20px 20px 20px 20px;
+    }
+    .dividends__title {
+        width: 100%;
+    }
+}

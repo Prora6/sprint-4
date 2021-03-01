@@ -200,3 +200,31 @@ $line-height-16: 16px;
         margin-left: 24px;
     }
 }
+
+.menu-img-wrap {
+    display: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .header {
+        padding: 13px 25px 13px 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo__wrap {
+        width: 60px;
+        height: 34px;
+        margin-right: 0px;
+    }
+
+    .header__right-block {
+        display: none;
+    }
+
+    .menu-img-wrap {
+        display: block;
+    }
+
+}

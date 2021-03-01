@@ -142,6 +142,23 @@
 .navigation__list-item:nth-child(5) .vertical__line-navigation {
   margin-left: 24px; }
 
+.menu-img-wrap {
+  display: none; }
+
+@media screen and (max-width: 1250px) {
+  .header {
+    padding: 13px 25px 13px 10px;
+    align-items: center;
+    justify-content: space-between; }
+  .logo__wrap {
+    width: 60px;
+    height: 34px;
+    margin-right: 0px; }
+  .header__right-block {
+    display: none; }
+  .menu-img-wrap {
+    display: block; } }
+
 .baner {
   background-image: url(../../images/Baner.png);
   background-size: cover;
@@ -174,6 +191,14 @@
   transform: translate(-50%, -50%);
   max-width: 1024px;
   width: 100%; }
+
+@media screen and (max-width: 1250px) {
+  .baner {
+    height: 180px; }
+  .baner__content-wrap {
+    padding-top: 0px;
+    margin: 0px;
+    padding-left: 10%; } }
 
 .list__services {
   display: flex;
@@ -244,6 +269,10 @@
   line-height: 27px;
   color: #300F14;
   font-family: "Milio"; }
+
+@media screen and (max-width: 1250px) {
+  .list__wrap-services {
+    display: none; } }
 
 .dividends {
   background-color: #F9F6F2;
@@ -322,6 +351,12 @@
 
 .dividends__list-item-text:last-child {
   max-width: 431px; }
+
+@media screen and (max-width: 1250px) {
+  .dividends {
+    padding: 20px 20px 20px 20px; }
+  .dividends__title {
+    width: 100%; } }
 
 .special__offer {
   background-color: #F9F6F2;
