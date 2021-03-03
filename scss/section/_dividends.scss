@@ -58,12 +58,27 @@
     margin-right: 25px;
 }
 
+
+
 .dividends__list {
     display: flex;
     flex-direction: column;
-    max-height: 236px;
     justify-content: space-between;
-    height: 100%;
+}
+
+.dividends__list-wrap {
+    .dividends__list-item:nth-child(1) {
+        margin-bottom: 21px;
+    }
+    .dividends__list-item:nth-child(2) {
+        margin-bottom: 21px;
+    }
+}
+
+.dividends__list-wrap:nth-child(1) {
+    .dividends__list-item:nth-child(2) {
+        margin-bottom: 41px;
+    }
 }
 
 .dividends__list-wrap:last-child {
@@ -96,7 +111,25 @@
     .dividends {
         padding: 20px 20px 20px 20px;
     }
-    .dividends__title {
-        width: 100%;
+    
+    .dividends__title-wrap {
+        justify-content: center;
     }
+
+    .dividends__title {
+        margin-bottom: 60px;
+    }
+
+    .dividends__line-wrap {
+        display: none;
+    }
+
+    .dividends__content {
+        margin-bottom: 0px;
+    }
+
+    .dividends__list {
+
+    }
+
 }
