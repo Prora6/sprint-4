@@ -246,7 +246,13 @@
 @media screen and (max-width: 1061px) {
     .score__list {
         .score__item:nth-child(3) {
-            
+            display: none;
         }
+
+        .score__item:nth-child(2) {
+            margin-right: 0px;
+        }
+
+        justify-content: center;
     }
 }

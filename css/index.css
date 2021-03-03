@@ -361,7 +361,7 @@
 
 @media screen and (max-width: 1250px) {
   .dividends {
-    padding: 20px 20px 20px 20px; }
+    padding: 20px 30px 20px 30px; }
   .dividends__title-wrap {
     align-items: center;
     flex-direction: column; }
@@ -749,6 +749,14 @@
   .score__line-wrap {
     max-width: 1024px; } }
 
+@media screen and (max-width: 1061px) {
+  .score__list {
+    justify-content: center; }
+    .score__list .score__item:nth-child(3) {
+      display: none; }
+    .score__list .score__item:nth-child(2) {
+      margin-right: 0px; } }
+
 .training {
   background-color: #F9F6F2;
   display: flex;
@@ -801,8 +809,6 @@
 .training__information {
   display: flex;
   flex-direction: row;
-  max-height: 243px;
-  height: 100%;
   margin-bottom: 32px; }
 
 .training__information-text {
@@ -825,6 +831,24 @@
   line-height: 22px;
   color: #000000;
   font-family: "Helvetica", sans-serif; }
+
+@media screen and (max-width: 1250px) {
+  .training {
+    padding: 50px 30px 50px 30px; }
+  .training__details {
+    display: none; }
+  .training__title-wrap {
+    flex-direction: column;
+    align-items: center; }
+  .training__line-wrap {
+    max-width: 1024px; }
+  .training__information {
+    flex-direction: column;
+    align-items: center; }
+    .training__information .training__information-text {
+      margin-bottom: 32px; }
+  .training__information-text {
+    padding: 0px 132px; } }
 
 .market {
   background-color: #F9F6F2;
