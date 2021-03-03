@@ -113,15 +113,17 @@
     }
     
     .dividends__title-wrap {
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .dividends__title {
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     .dividends__line-wrap {
-        display: none;
+        width: 100%;
+        max-width: 1024px;
     }
 
     .dividends__content {

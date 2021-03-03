@@ -221,3 +221,32 @@
 .points__list-item:nth-child(2) {
     margin: 0px 22px 0px 22px;
 }
+
+
+@media screen and (max-width: 1250px) {
+    .score {
+        padding: 50px 20px 50px 20px;
+    }
+    
+    .score__details {
+        display: none;
+    }
+    
+    .score__title-wrap {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 26px;
+    }
+    
+    .score__line-wrap {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1061px) {
+    .score__list {
+        .score__item:nth-child(3) {
+            
+        }
+    }
+}

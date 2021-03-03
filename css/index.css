@@ -363,11 +363,13 @@
   .dividends {
     padding: 20px 20px 20px 20px; }
   .dividends__title-wrap {
-    justify-content: center; }
+    align-items: center;
+    flex-direction: column; }
   .dividends__title {
-    margin-bottom: 60px; }
+    margin-bottom: 0px; }
   .dividends__line-wrap {
-    display: none; }
+    width: 100%;
+    max-width: 1024px; }
   .dividends__content {
     margin-bottom: 0px; } }
 
@@ -496,9 +498,12 @@
 
 @media screen and (max-width: 1250px) {
   .special__offer-wrap {
-    justify-content: center; }
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 26px; }
   .special__offer-line-wrap {
-    display: none; }
+    width: 100%;
+    max-width: 1024px; }
   .special__offer-details {
     display: none; }
   .special__offer-item {
@@ -731,6 +736,18 @@
 
 .points__list-item:nth-child(2) {
   margin: 0px 22px 0px 22px; }
+
+@media screen and (max-width: 1250px) {
+  .score {
+    padding: 50px 20px 50px 20px; }
+  .score__details {
+    display: none; }
+  .score__title-wrap {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 26px; }
+  .score__line-wrap {
+    max-width: 1024px; } }
 
 .training {
   background-color: #F9F6F2;
