@@ -152,6 +152,9 @@
     color: #632831;
 }
 
+.more__details-button {
+    display: none;
+}
 
 @media screen and (max-width: 1250px) {
     .special__offer-wrap {
@@ -169,6 +172,9 @@
         display: none;
     }
 
+    .special__offer-list {
+        margin-bottom: 36px;
+    }
     .special__offer-item {
         margin-right: 10px;
     }
@@ -180,5 +186,22 @@
 
     .special__offer-content{
         padding: 20px;
+    }
+
+    .more__details-button {
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        height: 50px;
+        border: 2px solid #D09E70;
+        color: #D09E70;
+        font-family: Helvetica;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        cursor: pointer;
+        letter-spacing: 0.05em;
+        background-color: #F9F6F2;
+        margin: 0px auto;
     }
 }

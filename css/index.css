@@ -496,6 +496,9 @@
   line-height: 17px;
   color: #632831; }
 
+.more__details-button {
+  display: none; }
+
 @media screen and (max-width: 1250px) {
   .special__offer-wrap {
     flex-direction: column;
@@ -506,13 +509,30 @@
     max-width: 1024px; }
   .special__offer-details {
     display: none; }
+  .special__offer-list {
+    margin-bottom: 36px; }
   .special__offer-item {
     margin-right: 10px; }
   .special__offer-text {
     margin-bottom: 10px;
     padding: 0px; }
   .special__offer-content {
-    padding: 20px; } }
+    padding: 20px; }
+  .more__details-button {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #D09E70;
+    color: #D09E70;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    background-color: #F9F6F2;
+    margin: 0px auto; } }
 
 @font-face {
   font-family: "Helvetica";
@@ -612,7 +632,6 @@
   max-width: 280px;
   max-height: 50px;
   width: 100%;
-  height: 100%;
   border: 1px solid #2A2A2A;
   font-family: Helvetica;
   font-size: 16px;
@@ -718,7 +737,8 @@
 .points__list {
   list-style: none;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 36px; }
 
 .points__list-item {
   display: flex; }
@@ -739,13 +759,16 @@
 
 @media screen and (max-width: 1250px) {
   .score {
-    padding: 50px 20px 50px 20px; }
+    padding: 50px 20px 50px 20px;
+    background-color: #F9F6F2; }
   .score__details {
     display: none; }
   .score__title-wrap {
     flex-direction: column;
     align-items: center;
     margin-bottom: 26px; }
+  .score__list-information {
+    background-color: #FFFFFF; }
   .score__line-wrap {
     max-width: 1024px; } }
 
@@ -834,7 +857,9 @@
 
 @media screen and (max-width: 1250px) {
   .training {
-    padding: 50px 30px 50px 30px; }
+    padding: 20px 30px 50px 30px; }
+  .training__content {
+    padding-bottom: 0px; }
   .training__details {
     display: none; }
   .training__title-wrap {

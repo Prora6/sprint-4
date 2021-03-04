@@ -88,7 +88,10 @@ color: #43191F;
 
 @media screen and (max-width: 1250px) {
     .training {
-        padding: 50px 30px 50px 30px;
+        padding: 20px 30px 50px 30px;
+    }
+    .training__content {
+        padding-bottom: 0px;
     }
     .training__details {
         display: none;
