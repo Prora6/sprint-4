@@ -108,9 +108,12 @@ color: #43191F;
         align-items: center;
         .training__information-text {
             margin-bottom: 32px;
+            padding: 0px 50px;
         }
     }
-    .training__information-text {
-        padding: 0px 132px;
+    .training__text {
+        padding: 0px 50px;
+        margin-bottom: 32px;
     }
+
 }
