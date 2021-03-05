@@ -128,3 +128,17 @@ margin-right: 52px;
     margin-left: 24px;
 
 }
+
+
+
+@media screen and (max-width: 1250px) {
+    .footer__img-wrap {
+        display: none;
+    }
+    .footer__down {
+        padding: 35px 20px 35px 20px;
+    }
+    .footer__up-content {
+        justify-content: center;
+    }
+}
